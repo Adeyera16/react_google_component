@@ -1,0 +1,12 @@
+.header {
+     padding: 8px; 
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 12px 12px;
+    gap: 20px;
+    align-items: center;
+    
+}

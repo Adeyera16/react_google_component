@@ -1,0 +1,79 @@
+
+.searchcomponents {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .searchbar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 30px 10px;
+    border: solid 1px rgb(218, 218, 218);
+    padding: 12px;
+    border-radius: 25px;
+  }
+  .searchbar:hover {
+    box-shadow: 2px 2px 2px 2px rgb(218, 218, 218);
+  }
+  .searchbar > input {
+    width: 80%;
+    border: none;
+    outline: none;
+  }
+  .searchbar > input[type="search"]::-webkit-search-decoration,
+  .searchbar > input[type="search"]::-webkit-search-cancel-button,
+  .searchbar > input[type="search"]::-webkit-search-results-button,
+  .searchbar > input[type="search"]::-webkit-search-results-decoration {
+    display:none;
+  }
+  .searchcomponents > p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .button > p {
+    background-color: rgb(245, 245, 245);
+    padding: 7px;
+  }
+  .button > p:hover {
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 4px;
+  }
+  .language {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+  }
+  .language > span {
+    color: blue;
+  }
+
+  .footer {
+    margin-top: 150px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(80, 79, 79);
+    font-size: 14px;
+   }
+   .footer > p {
+     padding: 17px 35px;
+   }
+   .footer > div {
+     display: flex;
+     justify-content: space-between;
+     padding: 22px 40px;
+   }
+   .footer > div > div {
+     display: flex;
+     gap: 25px;
+   }
+   .footer > div > div > span:hover {
+     text-decoration: underline;
+   }
+   .footer > div > section > p:hover{
+     text-decoration: underline;
+   }
